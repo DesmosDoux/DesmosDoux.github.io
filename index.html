@@ -98,12 +98,16 @@ ul {
     width: 854,
     height: 480,
     channel: "deimosdoux",
-    // only needed if your site is also embedded on embed.example.com and othersite.example.com
-    parent: ["embed.example.com", "othersite.example.com"]
   };
   var player = new Twitch.Player("SamplePlayerDivID", options);
   player.setVolume(0.5);
 </script>
+<iframe frameborder="<frameborder width>"
+        scrolling="<scrolling>"
+        src="https://www.twitch.tv/embed/<deimosdoux>/chat?parent=<parent>"
+        height="<height>"
+        width="<width>">
+</iframe>
 </div>   
 </body>
 </html>
